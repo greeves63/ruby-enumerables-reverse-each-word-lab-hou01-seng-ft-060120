@@ -9,6 +9,6 @@ puts first_method_reverse_each_word(example_array)
 end 
 def second_method_reverse_each_word(sentence)
   sentence.split.collect {|word| word.reverse}.join(" ")
+  
 end
 
-puts second_method_reverse_each_word(example_array)
