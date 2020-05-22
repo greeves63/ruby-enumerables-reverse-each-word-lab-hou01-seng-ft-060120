@@ -5,5 +5,5 @@ def first_method_reverse_each_word(array)
   end 
 array.join(" ")
 
-
+puts first_method_reverse_each_word(example_array)
 end 
